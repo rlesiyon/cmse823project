@@ -4,11 +4,10 @@ def hessenberg_form(Ac):
 
     '''
     Input:
-        A: matrix to be orthogonalized
-        Modifies A internally to create a R upper triangular matrix.
+        A: Matrix to perform schur decomposition A = QTQ*
     Return:
-        Q: orthonormal matrix
-        R: Upper triangular matrix
+        H: Return a Hessenberg form
+
     '''
 
     r, m = Ac.shape
